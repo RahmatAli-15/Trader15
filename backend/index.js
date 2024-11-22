@@ -20,6 +20,11 @@ app.get('/ping', (req, res) => {
 });
 
 app.use(bodyParser.json());
+const corsOptions = {
+    origin:"https://trader15.onrender.com",
+    credential: true
+}
+app.use(cors(corsOptions));
 app.use(cors());
 app.use('/auth', AuthRouter);
 app.use('/products', ProductRouter);
