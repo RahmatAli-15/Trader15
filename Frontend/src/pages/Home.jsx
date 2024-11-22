@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { APIUrl, handleError, handleSuccess } from '../utils';
+import { APIUrl, handleError, handleSuccess } from '../Utils';
 import { ToastContainer, toast } from 'react-toastify'; // Import toast
 import 'react-toastify/dist/ReactToastify.css';
 import ExpenseTable from './ExpenseTable';
