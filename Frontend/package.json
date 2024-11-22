@@ -12,7 +12,7 @@
   "dependencies": {
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.5.0",
-    "apexcharts": "^4.0.0",
+       "apexcharts": "^3.54.1",
     "backend": "file:..",
     "chart.js": "^4.4.6",
     "gsap": "^3.12.5",
