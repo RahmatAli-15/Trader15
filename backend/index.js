@@ -25,9 +25,9 @@ app.use('/auth', AuthRouter);
 app.use('/products', ProductRouter);
 app.use('/expenses', ensureAuthenticated, ExpenseRouter)
 
-app.use(express.static(path.join(_dirname, "/frontend/dist")));
+app.use(express.static(path.join(_dirname, "/Frontend/dist")));
 app.get('*', (_, res)=>{
-    res.sendFile(path.resolve(_dirname, "frontend", "dist", "index.html"));
+    res.sendFile(path.resolve(_dirname, "Frontend", "dist", "index.html"));
 });
 
 
