@@ -13,4 +13,4 @@ export const handleError = (msg) => {
 }
 
 // Updated for Vite environment variables
-export const APIUrl = import.meta.env.VITE_API_URL || 'http://localhost:8080';
+export const APIUrl = import.meta.env.VITE_API_URL || 'https://trader15.onrender.com';
